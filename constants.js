@@ -6,3 +6,6 @@ area = pi * radius * radius
 
 console.log(area)
 
+
+//const is not variable 
+
