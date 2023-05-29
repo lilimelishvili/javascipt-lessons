@@ -44,7 +44,9 @@ console.log(num);
 let num1 = 4
 let result = 4 ** 3 
 //let result = Math.pow(4,3) //(num1*num1*num1*)
-console.log(result)
+//
+console.log(result) 
+
 
 
 
