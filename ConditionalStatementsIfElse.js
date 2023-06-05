@@ -2,7 +2,7 @@
 
 let num1 = 10;
 let num2 = 13;
-let num3 = 7 
+let num3 = 7;
  
 
 if (num1 > num2 &&  num1 > num3 ){
