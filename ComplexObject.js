@@ -1,4 +1,3 @@
-
 let alien = {
     name: 'Lily',
     tech: 'JS',
@@ -8,6 +7,7 @@ let alien = {
         brand : 'Lenovo'
     }
 }
-
-delete alien.laptop
-console.log(alien);
+ for(let key in alien)
+ {
+console.log(key, alien[key]);
+ }
