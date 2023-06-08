@@ -1,10 +1,19 @@
 
-function greet ()
-{
-console.log("Hello World");
+function greet(user){
+    return `Hello ${user}!!`;
 }
-greet();
-console.log("1");
-greet();
-greet();
-greet();
+
+let user = 'Lily';
+let str = greet(user); // Lili
+
+console.log(str);
+
+/* -------------------------------------------------------------------------- */
+
+function greet2(a, b) {
+    return `price = ${a * b} ლარი.`;
+}
+
+  
+  console.log(greet2(5, 10));
+
