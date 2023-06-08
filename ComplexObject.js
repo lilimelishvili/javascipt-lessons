@@ -11,3 +11,5 @@ let alien = {
  {
 console.log(key, alien[key]);
  }
+ // finish for in loop
+ 
