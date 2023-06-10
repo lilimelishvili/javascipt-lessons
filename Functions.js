@@ -1,10 +1,14 @@
 
-function greet(user){
-    return `Hello ${user}!!`;
+let user = 'Lily'; // "user" is global variable 
+function greet(u){
+
+    let num = 5;  // "num" is local variable
+    console.log(user);
+    return `Hello ${u}!!`;
 }
 
-let user = 'Lily';
-let str = greet(user); // Lili
+console.log("num value is " + num);
+let str = greet(user); // 
 
 console.log(str);
 
@@ -18,16 +22,14 @@ function greet2(a, b) {
  console.log(greet2(5, 10));
 /* -------------------------------------------------------------------------- */
 
+/* --------------------------------------------------------------------------*/
 
-let add = function(num1, num2)
- {
-    return num1 + num2 ;
- }
- let sum = add
- let result = sum(5,7)
 
-//let result  =  add(5,7)
+function add (num1, num2, num3)
+{
+    console.log(num1, num2, num3);
+  return num1 + num2 + num3;
+
+}
+ let result = add(5,6,9)
 console.log(result);
-
-
-
