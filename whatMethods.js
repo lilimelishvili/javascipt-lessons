@@ -22,3 +22,4 @@ let laptop2 = {
 laptop2.getConfig();
 
 //'this'  is an object
+//add
