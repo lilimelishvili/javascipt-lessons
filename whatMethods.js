@@ -1,11 +1,24 @@
 
-let laptop = {
+let laptop1 = {
     cpu: 'i9',
     ram: 16,
     brand: 'HP',
 
-    greet: function(){
-        console.log('HELLO');
+    getConfig: function(){
+       
+        console.log(laptop1.cpu);
     }
 }
-laptop.greet();
+let laptop2 = {
+    cpu: 'i7',
+    ram: 17,
+    brand: 'lenovo',
+
+    getConfig: function(){
+       
+        console.log(this.cpu);
+    }
+}
+laptop2.getConfig();
+
+//'this'  is an object
