@@ -1,4 +1,15 @@
 
+
+function getFastLaptop(laptop1, laptop2)
+{
+    if (laptop1.cpu > laptop2.cpu) {
+        console.log(laptop1);
+     }
+     else{
+        console.log(laptop2);
+     }
+}
+ 
 let laptop1 = {
     cpu: 'i9',
     ram: 16,
@@ -12,14 +23,26 @@ let laptop1 = {
 let laptop2 = {
     cpu: 'i7',
     ram: 17,
-    brand: 'lenovo',
+    brand: 'Apple',
+
+    compare: function(laptop1)
+    {
+        if (this.cpu > other.cpu) 
+            console.log(this);
+         
+         else
+            console.log(other);
+         
+    },
 
     getConfig: function(){
        
         console.log(this.cpu);
     }
 }
-laptop2.getConfig();
 
-//'this'  is an object
-//add
+
+
+getFastLaptop(laptop1, laptop2);
+
+laptop1.compare(laptop2)
