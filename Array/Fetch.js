@@ -1,8 +1,7 @@
 
 
-let values = [5,7,8];
-//values.push(5);
-//values.push(7);
+let names = ['Lily', 'lessons', 'Giorgi'];
+names[3]= 'Giorgi'
 
 
 
