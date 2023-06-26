@@ -1,11 +1,16 @@
-let num = 1 
 
-function show(){
-    console.log("Hi", num);
-    num++;
-    if(num<=11299)
-     show();
+
+
+function fact(n){
+
+
+    if(n==0)
+         return 1;
+    else
+         return n*fact(n-1);
+
 }
 
-
-show();
+let num = 171
+let result = fact(num);
+console.log(result);
